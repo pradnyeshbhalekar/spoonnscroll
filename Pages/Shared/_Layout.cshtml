@@ -1,0 +1,210 @@
+﻿@* Pages/_Layout.cshtml *@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Recipe Manager</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+       :root {
+    --primary: #FF6B6B;
+    --secondary: #4ECDC4;
+    --dark: #292F36;
+    --light: #F7FFF7;
+    --accent: #FFE66D;
+}
+
+body {
+    background-color: var(--light);
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark);
+}
+
+.navbar {
+    background: linear-gradient(135deg, var(--primary) 0%, #FF8E53 100%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 1.5rem;
+}
+
+.navbar-brand i {
+    color: var(--accent);
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+    position: relative;
+    padding: 8px 15px;
+    margin: 0 5px;
+}
+
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card {
+    border-radius: 15px;
+    border: none;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    border-radius: 50px;
+    padding: 8px 25px;
+    font-weight: 500;
+    box-shadow: 0 4px 8px rgba(255, 107, 107, 0.3);
+}
+
+.btn-outline-secondary {
+    color: var(--secondary);
+    border-color: var(--secondary);
+    border-radius: 50px;
+    padding: 8px 25px;
+    font-weight: 500;
+}
+
+footer {
+    background: linear-gradient(135deg, var(--dark) 0%, #3E4551 100%);
+    color: white;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+footer a {
+    color: var(--accent);
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 10px;
+}
+
+.page-title {
+    font-weight: 700;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.page-title::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 4px;
+    bottom: -10px;
+    left: 0;
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    border-radius: 10px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark border-bottom mb-4">
+            <div class="container">
+                <a class="navbar-brand" asp-page="/Index">
+                    <i class="fas fa-utensils me-2"></i>SpoonNScroll
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-page="/Index">
+                                <i class="fas fa-home me-1"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-page="/Recipes/Index">
+                                <i class="fas fa-book-open me-1"></i> Recipes
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-page="/Recipes/Create">
+                                <i class="fas fa-plus-circle me-1"></i> Add Recipe
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="mb-4 fw-bold">SpoonNScroll</h5>
+                    <p>Discover and organize your favorite recipes with our easy-to-use platform.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="mb-4 fw-bold">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a asp-page="/Index" class="text-decoration-none"><i class="fas fa-chevron-right me-2"></i>Home</a></li>
+                        <li class="mb-2"><a asp-page="/Recipes/Index" class="text-decoration-none"><i class="fas fa-chevron-right me-2"></i>Recipes</a></li>
+                        <li class="mb-2"><a asp-page="/Recipes/Create" class="text-decoration-none"><i class="fas fa-chevron-right me-2"></i>Add Recipe</a></li>
+                        <li class="mb-2"><a asp-page="/Privacy" class="text-decoration-none"><i class="fas fa-chevron-right me-2"></i>Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="mb-4 fw-bold">Connect With Us</h5>
+                    <div class="mt-4">
+                        <a href="#" class="social-icon text-decoration-none">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon text-decoration-none">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon text-decoration-none">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4" style="background-color: rgba(255,255,255,0.1);">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 - Recipe Manager - <a asp-page="/Privacy">Privacy</a></p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a asp-page="/Terms" class="text-decoration-none me-3">Terms</a>
+                    <a asp-page="/Contact" class="text-decoration-none">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
