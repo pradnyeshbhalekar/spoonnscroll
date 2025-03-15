@@ -4,117 +4,75 @@
     ViewData["Title"] = "Home";
 }
 
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
 <h1>Welcome to SpoonNScroll 🍲</h1>
+
+@{
+  var recipes = new List<dynamic>
+{
+    new { Id = 1, Name = "Pasta Primavera", Description = "A light and colorful pasta dish loaded with fresh seasonal vegetables in a delicate garlic and olive oil sauce.", Image = "/assets/pasta-primavera.jpg", Time = "30 minutes", Servings = "Serves 4", 
+        Ingredients = new List<string> { "Pasta", "Bell peppers", "Zucchini", "Cherry tomatoes", "Garlic", "Olive oil", "Parmesan cheese" },
+        Steps = new List<string> { "Cook pasta.", "Sauté vegetables in olive oil and garlic.", "Combine pasta and veggies.", "Top with Parmesan cheese and serve." }
+    },
+    new { Id = 2, Name = "Pizza Margherita", Description = "Classic Italian pizza with a crispy thin crust topped with tomato sauce, fresh mozzarella, basil leaves, and a drizzle of olive oil.", Image = "/assets/pizza-margherita.webp", Time = "40 minutes", Servings = "Serves 4", 
+        Ingredients = new List<string> { "Pizza dough", "Tomato sauce", "Mozzarella", "Fresh basil", "Olive oil" },
+        Steps = new List<string> { "Roll out dough.", "Spread tomato sauce.", "Add mozzarella and basil.", "Bake at 220°C for 15 minutes." }
+    },
+    new { Id = 3, Name = "Fettuccine Alfredo", Description = "Creamy pasta dish with tender fettuccine noodles coated in a rich parmesan cheese sauce and topped with fresh cracked pepper.", Image = "/assets/fettuccine-alfredo.webp", Time = "20 minutes", Servings = "Serves 3", 
+        Ingredients = new List<string> { "Fettuccine pasta", "Butter", "Heavy cream", "Parmesan cheese", "Garlic", "Black pepper" },
+        Steps = new List<string> { "Cook fettuccine.", "Melt butter and add garlic.", "Stir in cream and Parmesan.", "Combine with pasta and serve." }
+    },
+    new { Id = 4, Name = "Chicken Tandoori", Description = "Tender chicken marinated in yogurt and aromatic spices, then roasted to perfection with a smoky flavor and vibrant red color.", Image = "/assets/chicken-tandoori.webp", Time = "50 minutes", Servings = "Serves 4", 
+        Ingredients = new List<string> { "Chicken", "Yogurt", "Tandoori spice mix", "Garlic", "Ginger", "Lemon juice" },
+        Steps = new List<string> { "Marinate chicken for 4 hours.", "Preheat oven to 200°C.", "Bake for 35 minutes, turning halfway.", "Serve with lemon wedges." }
+    },
+    new { Id = 5, Name = "Lasagna", Description = "Classic Italian comfort food with layers of pasta, rich meat sauce, creamy béchamel, and melted cheese baked to golden perfection.", Image = "/assets/lasagna.jpg", Time = "75 minutes", Servings = "Serves 8", 
+        Ingredients = new List<string> { "Lasagna noodles", "Ground beef", "Tomato sauce", "Ricotta cheese", "Mozzarella", "Béchamel sauce" },
+        Steps = new List<string> { "Cook beef and tomato sauce.", "Layer noodles, ricotta, and sauce.", "Bake at 180°C for 45 minutes.", "Let rest before serving." }
+    },
+    new { Id = 6, Name = "Bean and Cheese Burrito", Description = "Hearty flour tortilla filled with refried beans, Mexican rice, melted cheese, and fresh pico de gallo, served with guacamole and sour cream.", Image = "/assets/burrito.webp", Time = "25 minutes", Servings = "Serves 2", 
+        Ingredients = new List<string> { "Flour tortillas", "Refried beans", "Mexican rice", "Cheese", "Pico de gallo" },
+        Steps = new List<string> { "Warm tortillas.", "Fill with beans, rice, and cheese.", "Wrap and grill lightly.", "Serve with guacamole." }
+    },
+    new { Id = 7, Name = "Spaghetti Carbonara", Description = "Traditional Roman pasta dish with spaghetti tossed in a creamy sauce of eggs, cheese, pancetta, and black pepper for a simple yet decadent meal.", Image = "/assets/spaghetti-carbonara.webp", Time = "25 minutes", Servings = "Serves 2", 
+        Ingredients = new List<string> { "Spaghetti", "Egg yolks", "Parmesan cheese", "Pancetta", "Black pepper" },
+        Steps = new List<string> { "Cook spaghetti.", "Fry pancetta.", "Mix eggs, cheese, and pepper.", "Combine with pasta and serve." }
+    },
+    new { Id = 8, Name = "Pad Thai", Description = "Classic Thai stir-fried rice noodles with eggs, tofu, bean sprouts, peanuts, and lime, balanced with the perfect sweet, sour, and savory flavors.", Image = "/assets/pad-thai.jpg", Time = "30 minutes", Servings = "Serves 3", 
+        Ingredients = new List<string> { "Rice noodles", "Eggs", "Tofu", "Bean sprouts", "Peanuts", "Lime", "Pad Thai sauce" },
+        Steps = new List<string> { "Cook noodles.", "Sauté tofu and eggs.", "Add noodles and sauce.", "Top with peanuts and serve." }
+    },
+    new { Id = 9, Name = "Butter Chicken", Description = "A rich and creamy North Indian dish with tender chicken simmered in a velvety tomato-based curry sauce, served with naan or rice.", Image = "/assets/butter-chicken.jpg", Time = "45 minutes", Servings = "Serves 4", 
+        Ingredients = new List<string> { "Chicken", "Tomato puree", "Butter", "Cream", "Garam masala", "Garlic" },
+        Steps = new List<string> { "Marinate chicken.", "Cook in butter.", "Add tomato puree and cream.", "Simmer and serve." }
+    },
+    new { Id = 10, Name = "Sushi Rolls", Description = "Japanese-style sushi rolls made with fresh fish, avocado, cucumber, and seasoned rice, wrapped in nori and served with soy sauce.", Image = "/assets/sushi-rolls.jpg", Time = "50 minutes", Servings = "Serves 2", 
+        Ingredients = new List<string> { "Sushi rice", "Nori sheets", "Fresh fish", "Avocado", "Cucumber" },
+        Steps = new List<string> { "Prepare rice.", "Lay nori and spread rice.", "Add fillings and roll.", "Slice and serve." }
+    },
+    new { Id = 11, Name = "Ratatouille", Description = "A classic French vegetable stew made with zucchini, eggplant, bell peppers, and tomatoes, simmered in a rich herb-infused sauce.", Image = "/assets/ratatouille.jpg", Time = "50 minutes", Servings = "Serves 4" },
+
+new { Id = 12, Name = "Chicken Triple Fried Rice", Description = "A flavorful Indo-Chinese dish made with stir-fried rice, shredded chicken, eggs, and a mix of spicy sauces, served with crispy noodles and gravy.", Image = "/assets/chicken-triple-fried-rice.webp", Time = "35 minutes", Servings = "Serves 3" }
+
+};
+}
+
 <div class="dishes-container">
-    <a href="/Recipe/Details/1" class="dish-card">
-        <div class="dish-image">
-            <img src="/assets/pasta-primavera.jpg" alt="Pasta Primavera">
-        </div>
-        <div class="dish-content">
-            <h3 class="dish-title">Pasta Primavera</h3>
-            <p class="dish-description">A light and colorful pasta dish loaded with fresh seasonal vegetables in a delicate garlic and olive oil sauce.</p>
-            <div class="dish-meta">
-                <span class="prep-time"><i class="fa fa-clock-o"></i> 30 minutes</span>
-                <span class="servings"><i class="fa fa-users"></i> Serves 4</span>
+    @foreach (var recipe in recipes)
+    {
+        <a asp-page="/Details/Details" asp-route-id="@recipe.Id" class="dish-card">
+            <div class="dish-image">
+                <img src="@recipe.Image" alt="@recipe.Name">
             </div>
-        </div>
-    </a>
-
-    <a href="/Recipe/Details/2" class="dish-card">
-        <div class="dish-image">
-            <img src="/assets/pizza-margherita.webp" alt="Pizza Margherita">
-        </div>
-        <div class="dish-content">
-            <h3 class="dish-title">Pizza Margherita</h3>
-            <p class="dish-description">Classic Italian pizza with a crispy thin crust topped with tomato sauce, fresh mozzarella, basil leaves, and a drizzle of olive oil.</p>
-            <div class="dish-meta">
-                <span class="prep-time"><i class="fa fa-clock-o"></i> 40 minutes</span>
-                <span class="servings"><i class="fa fa-users"></i> Serves 4</span>
+            <div class="dish-content">
+                <h3 class="dish-title">@recipe.Name</h3>
+                <p class="dish-description">@recipe.Description</p>
+                <div class="dish-meta">
+                    <span class="prep-time"><i class="fa fa-clock-o"></i> @recipe.Time</span>
+                    <span class="servings"><i class="fa-regular fa-clock"></i> @recipe.Servings</span>
+                </div>
             </div>
-        </div>
-    </a>
-
-    <a href="/Recipe/Details/3" class="dish-card">
-        <div class="dish-image">
-            <img src="/assets/fettuccine-alfredo.webp" alt="Fettuccine Alfredo">
-        </div>
-        <div class="dish-content">
-            <h3 class="dish-title">Fettuccine Alfredo</h3>
-            <p class="dish-description">Creamy pasta dish with tender fettuccine noodles coated in a rich parmesan cheese sauce and topped with fresh cracked pepper.</p>
-            <div class="dish-meta">
-                <span class="prep-time"><i class="fa fa-clock-o"></i> 20 minutes</span>
-                <span class="servings"><i class="fa fa-users"></i> Serves 3</span>
-            </div>
-        </div>
-    </a>
-
-    <a href="/Recipe/Details/4" class="dish-card">
-        <div class="dish-image">
-            <img src="/assets/chicken-tandoori.webp" alt="Chicken Tandoori">
-        </div>
-        <div class="dish-content">
-            <h3 class="dish-title">Chicken Tandoori</h3>
-            <p class="dish-description">Tender chicken marinated in yogurt and aromatic spices, then roasted to perfection with a smoky flavor and vibrant red color.</p>
-            <div class="dish-meta">
-                <span class="prep-time"><i class="fa fa-clock-o"></i> 50 minutes</span>
-                <span class="servings"><i class="fa fa-users"></i> Serves 4</span>
-            </div>
-        </div>
-    </a>
-
-    <a href="/Recipe/Details/5" class="dish-card">
-        <div class="dish-image">
-            <img src="/assets/lasagna.jpg" alt="Lasagna">
-        </div>
-        <div class="dish-content">
-            <h3 class="dish-title">Lasagna</h3>
-            <p class="dish-description">Classic Italian comfort food with layers of pasta, rich meat sauce, creamy béchamel, and melted cheese baked to golden perfection.</p>
-            <div class="dish-meta">
-                <span class="prep-time"><i class="fa fa-clock-o"></i> 75 minutes</span>
-                <span class="servings"><i class="fa fa-users"></i> Serves 8</span>
-            </div>
-        </div>
-    </a>
-
-    <a href="/Recipe/Details/6" class="dish-card">
-        <div class="dish-image">
-            <img src="/assets/burrito.webp" alt="Bean and Cheese Burrito">
-        </div>
-        <div class="dish-content">
-            <h3 class="dish-title">Bean and Cheese Burrito</h3>
-            <p class="dish-description">Hearty flour tortilla filled with refried beans, Mexican rice, melted cheese, and fresh pico de gallo, served with guacamole and sour cream.</p>
-            <div class="dish-meta">
-                <span class="prep-time"><i class="fa fa-clock-o"></i> 25 minutes</span>
-                <span class="servings"><i class="fa fa-users"></i> Serves 2</span>
-            </div>
-        </div>
-    </a>
-
-    <a href="/Recipe/Details/7" class="dish-card">
-        <div class="dish-image">
-            <img src="/assets/spaghetti-carbonara.webp" alt="Spaghetti Carbonara">
-        </div>
-        <div class="dish-content">
-            <h3 class="dish-title">Spaghetti Carbonara</h3>
-            <p class="dish-description">Traditional Roman pasta dish with spaghetti tossed in a creamy sauce of eggs, cheese, pancetta and black pepper for a simple yet decadent meal.</p>
-            <div class="dish-meta">
-                <span class="prep-time"><i class="fa fa-clock-o"></i> 25 minutes</span>
-                <span class="servings"><i class="fa fa-users"></i> Serves 2</span>
-            </div>
-        </div>
-    </a>
-
-    <a href="/Recipe/Details/8" class="dish-card">
-        <div class="dish-image">
-            <img src="/assets/pad-thai.jpg" alt="Pad Thai">
-        </div>
-        <div class="dish-content">
-            <h3 class="dish-title">Pad Thai</h3>
-            <p class="dish-description">Classic Thai stir-fried rice noodles with eggs, tofu, bean sprouts, peanuts, and lime, balanced with the perfect sweet, sour, and savory flavors.</p>
-            <div class="dish-meta">
-                <span class="prep-time"><i class="fa fa-clock-o"></i> 30 minutes</span>
-                <span class="servings"><i class="fa fa-users"></i> Serves 3</span>
-            </div>
-        </div>
-    </a>
+        </a>
+    }
 </div>

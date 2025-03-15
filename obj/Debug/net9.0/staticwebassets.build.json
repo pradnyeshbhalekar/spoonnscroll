@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ACqx4rG9RB6gcWyGan0dG1qbZlSSAx48pgyMFa05ZwI=",
+  "Hash": "9lgcclf3aqc+O17zAk1poHei0bHBn533a9ttfxG9Y+s=",
   "Source": "spoonnscroll",
   "BasePath": "_content/spoonnscroll",
   "Mode": "Default",
@@ -248,12 +248,12 @@
       "OriginalItemSpec": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/js/site.js"
     },
     {
-      "Identity": "/Users/pradnyesh/Developer/spoonnscroll/obj/Debug/net9.0/compressed/7gwjegfiio-vlivhcdjbu.gz",
+      "Identity": "/Users/pradnyesh/Developer/spoonnscroll/obj/Debug/net9.0/compressed/7gwjegfiio-o1qeb81vm3.gz",
       "SourceId": "spoonnscroll",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/pradnyesh/Developer/spoonnscroll/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/spoonnscroll",
-      "RelativePath": "css/site#[.{fingerprint=vlivhcdjbu}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=o1qeb81vm3}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -262,8 +262,8 @@
       "RelatedAsset": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "rus3ax3l6e",
-      "Integrity": "05I40a7e6lQU3nJVf8cHVCXVGF5BpCiNIGOLrGiT3NQ=",
+      "Fingerprint": "1sulxn1yd3",
+      "Integrity": "EZxeP1+2QPYm8PgxGsVm7ZO37I3Nu7V7xjYJ61bezKk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/css/site.css"
@@ -1424,6 +1424,27 @@
       "OriginalItemSpec": "wwwroot/assets/burrito.webp"
     },
     {
+      "Identity": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/butter-chicken.jpg",
+      "SourceId": "spoonnscroll",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/",
+      "BasePath": "_content/spoonnscroll",
+      "RelativePath": "assets/butter-chicken#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1om2b5ol3j",
+      "Integrity": "Qb4E6gRj5BFXvPe5ZU4wZxhSyGVc4QZgWyf8LFPqZKM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/butter-chicken.jpg"
+    },
+    {
       "Identity": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/chicken-tandoori.webp",
       "SourceId": "spoonnscroll",
       "SourceType": "Discovered",
@@ -1443,6 +1464,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/chicken-tandoori.webp"
+    },
+    {
+      "Identity": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/chicken-triple-fried-rice.avif",
+      "SourceId": "spoonnscroll",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/",
+      "BasePath": "_content/spoonnscroll",
+      "RelativePath": "assets/chicken-triple-fried-rice#[.{fingerprint}]?.avif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bun1hs8q0g",
+      "Integrity": "DTDmCFdYtamHf2DhYJuJXcrenovp58sLkglznzDcS7A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/chicken-triple-fried-rice.avif"
+    },
+    {
+      "Identity": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/chicken-triple-fried-rice.webp",
+      "SourceId": "spoonnscroll",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/",
+      "BasePath": "_content/spoonnscroll",
+      "RelativePath": "assets/chicken-triple-fried-rice#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6p0yb2gcqn",
+      "Integrity": "9pTWG/WrMunL/EgFp8vPn022lYrQhPdpkVs+fe3GbHE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/chicken-triple-fried-rice.webp"
     },
     {
       "Identity": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/fettuccine-alfredo.webp",
@@ -1550,6 +1613,27 @@
       "OriginalItemSpec": "wwwroot/assets/pizza-margherita.webp"
     },
     {
+      "Identity": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/ratatouille.jpg",
+      "SourceId": "spoonnscroll",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/",
+      "BasePath": "_content/spoonnscroll",
+      "RelativePath": "assets/ratatouille#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6j3r3mlkjy",
+      "Integrity": "XmoBjEc/NynMpr/FkmRMIjYx2S7P9robRVA+YSvrnUM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/ratatouille.jpg"
+    },
+    {
       "Identity": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/spaghetti-carbonara.webp",
       "SourceId": "spoonnscroll",
       "SourceType": "Discovered",
@@ -1571,6 +1655,27 @@
       "OriginalItemSpec": "wwwroot/assets/spaghetti-carbonara.webp"
     },
     {
+      "Identity": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/sushi-rolls.jpg",
+      "SourceId": "spoonnscroll",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/",
+      "BasePath": "_content/spoonnscroll",
+      "RelativePath": "assets/sushi-rolls#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x45oj9rbvp",
+      "Integrity": "AVdONaDW6DQFAwTABf7U3Y09rgVJZMSnudQ6yMvltKM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/sushi-rolls.jpg"
+    },
+    {
       "Identity": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/css/site.css",
       "SourceId": "spoonnscroll",
       "SourceType": "Discovered",
@@ -1585,8 +1690,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vlivhcdjbu",
-      "Integrity": "82A/qr+NOJxStRDGHn0jQmXHQK/1Pyo1PmkMKXjQoiE=",
+      "Fingerprint": "o1qeb81vm3",
+      "Integrity": "XFa0Q1eFmiwkWO9Q28S+2vnU0bTPNL+xuzjd/zqNRUw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -2978,6 +3083,88 @@
       ]
     },
     {
+      "Route": "assets/butter-chicken.1om2b5ol3j.jpg",
+      "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/butter-chicken.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "168790"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qb4E6gRj5BFXvPe5ZU4wZxhSyGVc4QZgWyf8LFPqZKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 18:11:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1om2b5ol3j"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/butter-chicken.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qb4E6gRj5BFXvPe5ZU4wZxhSyGVc4QZgWyf8LFPqZKM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/butter-chicken.jpg",
+      "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/butter-chicken.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "168790"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qb4E6gRj5BFXvPe5ZU4wZxhSyGVc4QZgWyf8LFPqZKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 18:11:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qb4E6gRj5BFXvPe5ZU4wZxhSyGVc4QZgWyf8LFPqZKM="
+        }
+      ]
+    },
+    {
       "Route": "assets/chicken-tandoori.g6sm6ge2v7.webp",
       "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/chicken-tandoori.webp",
       "Selectors": [],
@@ -3056,6 +3243,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-KJ6uEdKEQ8xtEVg6CavWsbSOQgIwkBYCjdom56qnrqc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/chicken-triple-fried-rice.6p0yb2gcqn.webp",
+      "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/chicken-triple-fried-rice.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36886"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9pTWG/WrMunL/EgFp8vPn022lYrQhPdpkVs+fe3GbHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 18:18:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6p0yb2gcqn"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/chicken-triple-fried-rice.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9pTWG/WrMunL/EgFp8vPn022lYrQhPdpkVs+fe3GbHE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/chicken-triple-fried-rice.avif",
+      "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/chicken-triple-fried-rice.avif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DTDmCFdYtamHf2DhYJuJXcrenovp58sLkglznzDcS7A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 18:16:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DTDmCFdYtamHf2DhYJuJXcrenovp58sLkglznzDcS7A="
+        }
+      ]
+    },
+    {
+      "Route": "assets/chicken-triple-fried-rice.bun1hs8q0g.avif",
+      "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/chicken-triple-fried-rice.avif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DTDmCFdYtamHf2DhYJuJXcrenovp58sLkglznzDcS7A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 18:16:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bun1hs8q0g"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/chicken-triple-fried-rice.avif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DTDmCFdYtamHf2DhYJuJXcrenovp58sLkglznzDcS7A="
+        }
+      ]
+    },
+    {
+      "Route": "assets/chicken-triple-fried-rice.webp",
+      "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/chicken-triple-fried-rice.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36886"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9pTWG/WrMunL/EgFp8vPn022lYrQhPdpkVs+fe3GbHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 18:18:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9pTWG/WrMunL/EgFp8vPn022lYrQhPdpkVs+fe3GbHE="
         }
       ]
     },
@@ -3470,6 +3821,88 @@
       ]
     },
     {
+      "Route": "assets/ratatouille.6j3r3mlkjy.jpg",
+      "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/ratatouille.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "180439"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XmoBjEc/NynMpr/FkmRMIjYx2S7P9robRVA+YSvrnUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 18:15:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6j3r3mlkjy"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/ratatouille.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XmoBjEc/NynMpr/FkmRMIjYx2S7P9robRVA+YSvrnUM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/ratatouille.jpg",
+      "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/ratatouille.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "180439"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XmoBjEc/NynMpr/FkmRMIjYx2S7P9robRVA+YSvrnUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 18:15:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XmoBjEc/NynMpr/FkmRMIjYx2S7P9robRVA+YSvrnUM="
+        }
+      ]
+    },
+    {
       "Route": "assets/spaghetti-carbonara.4hcds5ws3u.webp",
       "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/spaghetti-carbonara.webp",
       "Selectors": [],
@@ -3552,13 +3985,95 @@
       ]
     },
     {
+      "Route": "assets/sushi-rolls.jpg",
+      "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/sushi-rolls.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "193913"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AVdONaDW6DQFAwTABf7U3Y09rgVJZMSnudQ6yMvltKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 18:11:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AVdONaDW6DQFAwTABf7U3Y09rgVJZMSnudQ6yMvltKM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/sushi-rolls.x45oj9rbvp.jpg",
+      "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/sushi-rolls.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "193913"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AVdONaDW6DQFAwTABf7U3Y09rgVJZMSnudQ6yMvltKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 18:11:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x45oj9rbvp"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/sushi-rolls.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AVdONaDW6DQFAwTABf7U3Y09rgVJZMSnudQ6yMvltKM="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
-      "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/obj/Debug/net9.0/compressed/7gwjegfiio-vlivhcdjbu.gz",
+      "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/obj/Debug/net9.0/compressed/7gwjegfiio-o1qeb81vm3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001315789474"
+          "Quality": "0.000454959054"
         }
       ],
       "ResponseHeaders": [
@@ -3568,15 +4083,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "759"
+          "Value": "2197"
         },
         {
           "Name": "ETag",
-          "Value": "\"05I40a7e6lQU3nJVf8cHVCXVGF5BpCiNIGOLrGiT3NQ=\""
+          "Value": "\"EZxeP1+2QPYm8PgxGsVm7ZO37I3Nu7V7xjYJ61bezKk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 12:12:46 GMT"
+          "Value": "Thu, 13 Mar 2025 12:28:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3596,13 +4111,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"82A/qr+NOJxStRDGHn0jQmXHQK/1Pyo1PmkMKXjQoiE=\""
+          "Value": "W/\"XFa0Q1eFmiwkWO9Q28S+2vnU0bTPNL+xuzjd/zqNRUw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-82A/qr+NOJxStRDGHn0jQmXHQK/1Pyo1PmkMKXjQoiE="
+          "Value": "sha256-XFa0Q1eFmiwkWO9Q28S+2vnU0bTPNL+xuzjd/zqNRUw="
         }
       ]
     },
@@ -3617,7 +4132,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2022"
+          "Value": "8054"
         },
         {
           "Name": "Content-Type",
@@ -3625,11 +4140,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"82A/qr+NOJxStRDGHn0jQmXHQK/1Pyo1PmkMKXjQoiE=\""
+          "Value": "\"XFa0Q1eFmiwkWO9Q28S+2vnU0bTPNL+xuzjd/zqNRUw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 12:12:46 GMT"
+          "Value": "Thu, 13 Mar 2025 12:28:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3639,13 +4154,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-82A/qr+NOJxStRDGHn0jQmXHQK/1Pyo1PmkMKXjQoiE="
+          "Value": "sha256-XFa0Q1eFmiwkWO9Q28S+2vnU0bTPNL+xuzjd/zqNRUw="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/obj/Debug/net9.0/compressed/7gwjegfiio-vlivhcdjbu.gz",
+      "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/obj/Debug/net9.0/compressed/7gwjegfiio-o1qeb81vm3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3654,7 +4169,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "759"
+          "Value": "2197"
         },
         {
           "Name": "Content-Type",
@@ -3662,11 +4177,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"05I40a7e6lQU3nJVf8cHVCXVGF5BpCiNIGOLrGiT3NQ=\""
+          "Value": "\"EZxeP1+2QPYm8PgxGsVm7ZO37I3Nu7V7xjYJ61bezKk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 12:12:46 GMT"
+          "Value": "Thu, 13 Mar 2025 12:28:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3684,18 +4199,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-05I40a7e6lQU3nJVf8cHVCXVGF5BpCiNIGOLrGiT3NQ="
+          "Value": "sha256-EZxeP1+2QPYm8PgxGsVm7ZO37I3Nu7V7xjYJ61bezKk="
         }
       ]
     },
     {
-      "Route": "css/site.vlivhcdjbu.css",
-      "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/obj/Debug/net9.0/compressed/7gwjegfiio-vlivhcdjbu.gz",
+      "Route": "css/site.o1qeb81vm3.css",
+      "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/obj/Debug/net9.0/compressed/7gwjegfiio-o1qeb81vm3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001315789474"
+          "Quality": "0.000454959054"
         }
       ],
       "ResponseHeaders": [
@@ -3705,15 +4220,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "759"
+          "Value": "2197"
         },
         {
           "Name": "ETag",
-          "Value": "\"05I40a7e6lQU3nJVf8cHVCXVGF5BpCiNIGOLrGiT3NQ=\""
+          "Value": "\"EZxeP1+2QPYm8PgxGsVm7ZO37I3Nu7V7xjYJ61bezKk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 12:12:46 GMT"
+          "Value": "Thu, 13 Mar 2025 12:28:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3733,13 +4248,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"82A/qr+NOJxStRDGHn0jQmXHQK/1Pyo1PmkMKXjQoiE=\""
+          "Value": "W/\"XFa0Q1eFmiwkWO9Q28S+2vnU0bTPNL+xuzjd/zqNRUw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vlivhcdjbu"
+          "Value": "o1qeb81vm3"
         },
         {
           "Name": "label",
@@ -3747,12 +4262,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-82A/qr+NOJxStRDGHn0jQmXHQK/1Pyo1PmkMKXjQoiE="
+          "Value": "sha256-XFa0Q1eFmiwkWO9Q28S+2vnU0bTPNL+xuzjd/zqNRUw="
         }
       ]
     },
     {
-      "Route": "css/site.vlivhcdjbu.css",
+      "Route": "css/site.o1qeb81vm3.css",
       "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3762,7 +4277,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2022"
+          "Value": "8054"
         },
         {
           "Name": "Content-Type",
@@ -3770,11 +4285,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"82A/qr+NOJxStRDGHn0jQmXHQK/1Pyo1PmkMKXjQoiE=\""
+          "Value": "\"XFa0Q1eFmiwkWO9Q28S+2vnU0bTPNL+xuzjd/zqNRUw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 12:12:46 GMT"
+          "Value": "Thu, 13 Mar 2025 12:28:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3784,7 +4299,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vlivhcdjbu"
+          "Value": "o1qeb81vm3"
         },
         {
           "Name": "label",
@@ -3792,13 +4307,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-82A/qr+NOJxStRDGHn0jQmXHQK/1Pyo1PmkMKXjQoiE="
+          "Value": "sha256-XFa0Q1eFmiwkWO9Q28S+2vnU0bTPNL+xuzjd/zqNRUw="
         }
       ]
     },
     {
-      "Route": "css/site.vlivhcdjbu.css.gz",
-      "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/obj/Debug/net9.0/compressed/7gwjegfiio-vlivhcdjbu.gz",
+      "Route": "css/site.o1qeb81vm3.css.gz",
+      "AssetFile": "/Users/pradnyesh/Developer/spoonnscroll/obj/Debug/net9.0/compressed/7gwjegfiio-o1qeb81vm3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3807,7 +4322,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "759"
+          "Value": "2197"
         },
         {
           "Name": "Content-Type",
@@ -3815,11 +4330,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"05I40a7e6lQU3nJVf8cHVCXVGF5BpCiNIGOLrGiT3NQ=\""
+          "Value": "\"EZxeP1+2QPYm8PgxGsVm7ZO37I3Nu7V7xjYJ61bezKk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 12:12:46 GMT"
+          "Value": "Thu, 13 Mar 2025 12:28:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3837,7 +4352,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vlivhcdjbu"
+          "Value": "o1qeb81vm3"
         },
         {
           "Name": "label",
@@ -3845,7 +4360,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-05I40a7e6lQU3nJVf8cHVCXVGF5BpCiNIGOLrGiT3NQ="
+          "Value": "sha256-EZxeP1+2QPYm8PgxGsVm7ZO37I3Nu7V7xjYJ61bezKk="
         }
       ]
     },
@@ -22134,7 +22649,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 18:55:20 GMT"
+          "Value": "Thu, 13 Mar 2025 03:08:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22187,7 +22702,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 18:55:20 GMT"
+          "Value": "Thu, 13 Mar 2025 03:08:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22224,7 +22739,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 18:55:20 GMT"
+          "Value": "Thu, 13 Mar 2025 03:08:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22271,7 +22786,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 18:55:20 GMT"
+          "Value": "Thu, 13 Mar 2025 03:08:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22332,7 +22847,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 18:55:20 GMT"
+          "Value": "Thu, 13 Mar 2025 03:08:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22377,7 +22892,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 18:55:20 GMT"
+          "Value": "Thu, 13 Mar 2025 03:08:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22432,7 +22947,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 18:55:20 GMT"
+          "Value": "Thu, 13 Mar 2025 03:08:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22493,7 +23008,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 18:55:20 GMT"
+          "Value": "Thu, 13 Mar 2025 03:08:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22538,7 +23053,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 18:55:20 GMT"
+          "Value": "Thu, 13 Mar 2025 03:08:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22593,7 +23108,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 18:55:20 GMT"
+          "Value": "Thu, 13 Mar 2025 03:08:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22646,7 +23161,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 18:55:20 GMT"
+          "Value": "Thu, 13 Mar 2025 03:08:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22683,7 +23198,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 18:55:20 GMT"
+          "Value": "Thu, 13 Mar 2025 03:08:46 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -9,8 +9,20 @@
       "PackagePath": "staticwebassets/assets/burrito.webp"
     },
     {
+      "Id": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/butter-chicken.jpg",
+      "PackagePath": "staticwebassets/assets/butter-chicken.jpg"
+    },
+    {
       "Id": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/chicken-tandoori.webp",
       "PackagePath": "staticwebassets/assets/chicken-tandoori.webp"
+    },
+    {
+      "Id": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/chicken-triple-fried-rice.avif",
+      "PackagePath": "staticwebassets/assets/chicken-triple-fried-rice.avif"
+    },
+    {
+      "Id": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/chicken-triple-fried-rice.webp",
+      "PackagePath": "staticwebassets/assets/chicken-triple-fried-rice.webp"
     },
     {
       "Id": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/fettuccine-alfredo.webp",
@@ -33,8 +45,16 @@
       "PackagePath": "staticwebassets/assets/pizza-margherita.webp"
     },
     {
+      "Id": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/ratatouille.jpg",
+      "PackagePath": "staticwebassets/assets/ratatouille.jpg"
+    },
+    {
       "Id": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/spaghetti-carbonara.webp",
       "PackagePath": "staticwebassets/assets/spaghetti-carbonara.webp"
+    },
+    {
+      "Id": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/assets/sushi-rolls.jpg",
+      "PackagePath": "staticwebassets/assets/sushi-rolls.jpg"
     },
     {
       "Id": "/Users/pradnyesh/Developer/spoonnscroll/wwwroot/css/site.css",

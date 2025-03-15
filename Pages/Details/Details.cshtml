@@ -1,0 +1,86 @@
+@page
+@model SpoonNScroll.Pages.Details.DetailsModel
+@using SpoonNScroll.Models;
+
+
+<link rel="stylesheet" href="~/css/site.css" />
+
+
+<div class="recipe-details-container">
+
+    <div class="recipe-hero">
+        <img src="@Model.Recipe.Image" alt="@Model.Recipe.Name" class="recipe-hero-bg">
+        <div class="recipe-hero-overlay">
+            <div class="recipe-hero-content">
+                <h1 class="recipe-title">@Model.Recipe.Name</h1>
+                <div class="recipe-meta">
+                    <span class="recipe-time">@Model.Recipe.Time</span>
+                    <span class="recipe-servings">@Model.Recipe.Servings</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recipe Introduction -->
+    <div class="recipe-intro">
+        <p class="recipe-description">@Model.Recipe.Description</p>
+        <div class="recipe-actions">
+            <button class="action-button print-button">
+                <i class="icon-print"></i> Print Recipe
+            </button>
+            <button class="action-button save-button">
+                <i class="icon-bookmark"></i> Save
+            </button>
+        </div>
+    </div>
+
+    <!-- Recipe Content (Two-Column Layout) -->
+    <div class="recipe-content">
+        <div class="ingredients-section">
+            <h2>Ingredients</h2>
+            <ul class="ingredients-list">
+                @if (Model.Recipe.Ingredients != null)
+                {
+                    @foreach (var ingredient in Model.Recipe.Ingredients)
+                    {
+                        <li>@ingredient</li>
+                    }
+                }
+                else
+                {
+                    <li>Ingredients not available</li>
+                }
+            </ul>
+        </div>
+
+        <div class="steps-section">
+            <h2>Instructions</h2>
+            <ol class="steps-list">
+                @if (Model.Recipe.Steps != null)
+                {
+                    @foreach (var step in Model.Recipe.Steps)
+                    {
+                        <li>@step</li>
+                    }
+                }
+                else
+                {
+                    <li>Instructions not available</li>
+                }
+            </ol>
+        </div>
+    </div>
+
+    <!-- Chef Tips Section (Optional) -->
+    <div class="chef-tips">
+        <h3>Chef's Tips</h3>
+        <div class="tips-content">
+            <p>For best results, let ingredients reach room temperature before starting. The flavors develop better overnight, so consider making this dish a day ahead.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Back to Top Button -->
+<div class="back-to-top">
+    <i class="icon-arrow-up"></i>
+</div>
