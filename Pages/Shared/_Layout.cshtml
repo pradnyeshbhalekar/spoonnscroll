@@ -17,12 +17,6 @@
     --accent: #FFE66D;
 }
 
-body {
-    background-color: var(--light);
-    font-family: 'Poppins', sans-serif;
-    color: var(--dark);
-}
-
 .navbar {
     background: linear-gradient(135deg, var(--primary) 0%, #FF8E53 100%);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -34,7 +28,7 @@ body {
     font-weight: 700;
     letter-spacing: 0.5px;
     font-size: 1.5rem;
-}
+}   
 
 .navbar-brand i {
     color: var(--accent);
@@ -141,11 +135,15 @@ footer a {
                                 <i class="fas fa-book-open me-1"></i> Recipes
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-page="/Recipes/Create">
-                                <i class="fas fa-plus-circle me-1"></i> Add Recipe
-                            </a>
-                        </li>
+                        <li><a asp-page="/Reviews">Reviews</a></li>
+
+                     <li class="nav-item">
+    <a class="nav-link" asp-page="/login">
+    
+        <i class="fas fa-sign-in-alt me-1"></i> Login
+    </a>
+</li>
+
                     </ul>
                 </div>
             </div>

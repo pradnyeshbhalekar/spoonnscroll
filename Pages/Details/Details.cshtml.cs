@@ -1,17 +1,15 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using SpoonNScroll.Models;
 using System.Collections.Generic;
 using System.Linq;
-
+using SpoonNScroll.Models;
 namespace SpoonNScroll.Pages.Details
 {
     public class DetailsModel : PageModel
     {
-        public Recipe Recipe { get; set; }
+     public dynamic Recipe { get; set; }
 
-        // Declare the recipes list as a static class-level variable
-        private static readonly List<Recipe> recipes = new List<Recipe>
+    private static readonly List<dynamic> recipes = new List<dynamic>
         {
             new Recipe 
             { 

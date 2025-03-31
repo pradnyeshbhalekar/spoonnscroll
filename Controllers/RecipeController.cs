@@ -1,12 +1,14 @@
 using Microsoft.AspNetCore.Mvc;
-using SpoonNScroll.Models;
+
 using System.Collections.Generic;
 
-namespace SpoonNScroll.Controllers
-{
+namespace SpoonNScroll.Controllers;
+
+using SpoonNScroll.Models;
+
 public class RecipeController : Controller
 {
-    private static List<Recipe> recipes = new List<Recipe>
+    private static readonly List<dynamic> recipes = new List<dynamic>
 {
     new Recipe 
     { 
@@ -354,5 +356,4 @@ new Recipe {
         }
         return View(recipe);
     }
-}
 }
